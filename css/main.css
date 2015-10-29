@@ -15,4 +15,10 @@ html, body {
 #projects {
   background-color: #fff; }
 
+.project {
+  padding-bottom: 20px; }
+
+.carousel-one-picture {
+  border: 1px solid #eee; }
+
 /*# sourceMappingURL=main.css.map */
