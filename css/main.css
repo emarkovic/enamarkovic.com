@@ -1,0 +1,18 @@
+html, body {
+  background-color: #eee;
+  min-width: 100%;
+  min-height: 100%; }
+
+.navbar-default {
+  opacity: 0.85; }
+
+.jumbotron {
+  padding-top: 108px; }
+
+.review-element {
+  padding-top: 10px; }
+
+#projects {
+  background-color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
