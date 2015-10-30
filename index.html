@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Ena Markovic</title>
 		<link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
@@ -12,8 +13,8 @@
 			<div class="container-fluid">
 				<ul class="nav navbar-nav">
 					<li><a href="#">About</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>					
 				</ul>
 			</div>
 		</nav>
@@ -24,21 +25,129 @@
 					<div class="row">
 						<div class="col-md-8">
 							<h1>Hi! I'm Ena.</h1>
-							<p>I an Informatics student at the University of Washington and I am interested in all things web development</p>
+							<p>I an Informatics student at the University of Washington and I am interested in all things web development.</p>		
 						</div>
-						<div class="col-md-4">
-							<h2>Resume</h2>							
-							<p><a href="">pdf</a></p>
-							<p><a href="">link</a></p>
+						<div class="col-md-4" id="contact">
+							<h2>Contact</h2>							
+							<ul>
+								<li>
+									<a target="_blank" href="https://github.com/emarkovic"><i class="fa fa-github"></i></a>
+								</li>
+								<li>
+									<a target="_blank" href="https://www.linkedin.com/pub/ena-markovic/a1/468/125"><i class="fa fa-linkedin-square"></i></a>
+								</li>
+								<li>
+									<a href="mailto:&#x65;&#x6D;&#x34;&#x32;&#x40;&#x75;&#x77;&#x2E;&#x65;&#x64;&#x75;"><i class="fa fa-envelope-o"></i></a>
+								</li>
+							</ul>
+							<h2>Resume</h2>
+							<ul>
+								<li><a target="_blank" href="html/"><i class="fa fa-file-code-o"></i></a></li>
+								<li><a target="_blank" href="files/Markovic.Resume10-2015.pdf"><i class="fa fa-file-pdf-o"></i></a></li>
+							</ul>
 						</div>
 					</div>
-				</div>
+
 			</div>
 		</header>
+
+		<section id="skills">
+			<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3>Heavy Experience</h3>
+							<table class="table">
+								<tr>
+									<td>Languages</td>
+									<td>Java, JavaScript, HTML5, CSS3, SASS, SQL</td>
+								</tr>
+								<tr>
+									<td>Libraries</td>
+									<td>jQuery, Bootstrap</td>
+								</tr>
+								<tr>
+									<td>Techniques</td>
+									<td>DOM, AJAX, RESTful JSON APIs, JavaScript Promises</td>
+								</tr>
+								<tr>
+									<td>OS's</td>
+									<td>OS X, Linux, Windows</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+						<div class="col-md-6">
+							<h3>Light Experience</h3>
+
+							<table class="table">
+								<tr>
+									<td>Languages</td>
+									<td>PHP</td>
+								</tr>
+								<tr>
+									<td>Libraries</td>
+									<td>Node.js, Angular.js, lodash.js, Require.js, Paper.js, Moment.js</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+								</tr>
+							</table>	
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
 		
 		<section id="projects">
 			<div class="container">
 				<h2>Projects</h2>
+
+				<!-- spotify template -->
+				<div class="project">				
+					<h3>Spotify Template <small>Fall 2015</small></h3>
+					<div class="row">
+						<div class="col-md-4">
+							<p class="review-element">Look up tracks from Spotify and add them to your favorites. Track information is provided by Spotify open API.</p>
+							<p><a href="http://enamarkovic.com/info343/labs/spotify-template/">Check it out!</a></p>
+						</div>
+						<div class="col-md-4">
+							<div id="spotify-temp" class="carousel slide" data-ride="carousel" data-interval="false">
+							  <!-- Indicators -->
+							  	<ol class="carousel-indicators">
+							    	<li data-target="#spotify-temp" data-slide-to="0" class="active"></li>
+							 	</ol>
+
+							  <!-- Wrapper for slides -->
+							 	<div class="carousel-inner" role="listbox">
+								    <div class="item active">
+								      	<img src="img/spotify-template/one.png" alt="login page">
+								    </div>
+							  	</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h4>Tech used:</h4>
+							<ul>
+								<li>JavaScript</li>
+								<li>BootStrap</li>
+								<li>jQuery</li>
+								<li>Angular.js</li>
+								<li>lodash.js</li>
+							</ul>
+
+							<h4>Made for:</h4>
+							<ul>
+								<li>Info 343 - Client Side Web Development Lab Section</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<hr>
 
 				<!-- customer reviews -->
 				<div class="project">				
@@ -552,16 +661,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="contact">
-			<div class="container">
-				<h2>Contact</h2>
-				<div>
-					<span>linkedin</span>
-					<span>github</span>
-					<span>email</span>
-				</div>
-			</div>
-		</section>
+
 		
 		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
