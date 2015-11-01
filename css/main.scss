@@ -25,6 +25,10 @@ html, body {
 
 .project {
 	padding-bottom: 20px;
+
+	h3 {
+		padding-bottom: 10px;
+	}
 }
 
 .carousel-one-picture {
@@ -49,7 +53,8 @@ hr {
 }
 
 #contact {
-
+	text-align: right;
+	
 	i {
 		font-size: 20pt;
 	}
