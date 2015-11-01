@@ -1,0 +1,26 @@
+	
+body {
+	padding-bottom: 20px;
+}
+
+header {
+	text-align: center;
+}
+
+.content {
+	padding-left: 30px;
+}
+
+#skills .content {
+	padding-left: 0;
+}
+
+.hidden-xs {
+	display: inline;
+}
+
+.small-caps {
+	font-variant: small-caps;
+}
+
+@media(min-width: )

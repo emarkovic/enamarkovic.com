@@ -48,4 +48,7 @@ hr {
   text-decoration: none;
   color: #555555; }
 
+.carousel-control.left, .carousel-control.right {
+  background: none; }
+
 /*# sourceMappingURL=main.css.map */
