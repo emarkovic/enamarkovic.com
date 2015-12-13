@@ -15,7 +15,11 @@ html, body {
 #projects {
   padding-top: 50px; }
   #projects h2 {
-    text-align: center; }
+    text-align: center;
+    font-size: 40px; }
+  #projects img {
+    height: 200px;
+    width: 300px; }
 
 .project {
   padding-bottom: 20px; }
@@ -54,5 +58,8 @@ hr {
 
 .carousel-control.left, .carousel-control.right {
   background: none; }
+
+#nameIntro {
+  color: #317eac; }
 
 /*# sourceMappingURL=main.css.map */
