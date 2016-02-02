@@ -3,9 +3,6 @@ html, body {
   min-width: 100%;
   min-height: 100%; }
 
-.navbar-default {
-  opacity: 0.85; }
-
 .jumbotron {
   padding-top: 108px; }
 
@@ -61,5 +58,24 @@ hr {
 
 #nameIntro {
   color: #317eac; }
+
+.nav-pills {
+  background-color: #2fa4e7;
+  opacity: 0.85; }
+  .nav-pills a {
+    color: #fff; }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #178acc; }
+
+.nav-pills > li > a {
+  border-radius: 0; }
+
+@media (max-width: 992px) {
+  .project {
+    text-align: center; }
+    .project ul {
+      list-style-type: none;
+      padding-left: 0px; } }
 
 /*# sourceMappingURL=main.css.map */

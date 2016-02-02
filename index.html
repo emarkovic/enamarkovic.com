@@ -9,26 +9,21 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<!-- Nav bar -->
-		<nav class="nav navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav">
-					<li><a href="#about">About</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#projects">Projects</a></li>					
-				</ul>
-			</div>
-		</nav>
+		<ul class="nav nav-pills navbar-fixed-top">
+		  <li role="presentation"><a href="#about">About</a></li>
+		  <li role="presentation"><a href="#skills">Skills</a></li>
+		  <li role="presentation"><a href="#projects">Projects</a></li>
+		</ul>		
 		<!-- Introduction -->
 		<header id="about">
 			<div class="jumbotron">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8">
+						<div class="col-xs-8">
 							<h1 id="nameIntro">Hi! I'm Ena.</h1>
 							<p>I am an Informatics student at the University of Washington and I am interested in all things web development.</p>		
 						</div>
-						<div class="col-md-4" id="contact">
+						<div class="col-xs-4" id="contact">
 							<h2>Contact</h2>							
 							<ul>
 								<li>
@@ -114,6 +109,47 @@
 		<section id="projects">
 			<div class="container">
 				<h2>Projects</h2>
+				
+				<!-- Newsmeter -->
+				<div class="project">
+					<h3>SASS-N News Meter <small>Winter 2015</small></h3>
+
+					<div class="row">
+						<div class="col-md-4">
+							<p class="review-element">With the help of <a href="https://algorithmia.com/">Algorithmia</a>, the SASS-N, Sentimental Analytical Smart System for News, analyzes news articles from <a href="https://news.ycombinator.com/">Hacker News</a> and assigns a sentiment rating and provides a summary of the article.</p>
+							<p>Check out the <a href="https://github.com/wuv21/NewsMeter">GitHub repository</a>!</p>
+						</div>
+						<div class="col-md-4">
+							<div>
+								<img src="img/news-meter/one.png" alt="news meter">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h4>Tech used:</h4>
+							<ul>
+								<li>JacaScript</li>
+								<li>jQuery</li>
+								<li>lodash.js</li>
+								<li>Angular</li>
+								<li>Angular UI Routing</li>
+								<li>AngularFire</li>
+								<li>Algorithmia</li>
+							</ul>
+
+							<h4>Made for:</h4>
+							<ul>
+								<li>Winfo Hackathon: 10 hour</li>
+							</ul>
+
+							<h4>Made with:</h4>
+							<ul>
+								<li>Vincent Wu</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<hr>
 
 				<!-- Breadcrumbs -->
 				<div class="project">				
@@ -151,7 +187,7 @@
 							<h4>Made with:</h4>
 							<ul>
 								<li>Jonathan Li</li>
-								<li>Vincent Huang</li>
+								<li>Vincent Wu</li>
 							</ul>
 						</div>
 					</div>
@@ -598,7 +634,7 @@
 		</section>
 
 		
-		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 		<script src="js/main.js"></script>
 	</body>
